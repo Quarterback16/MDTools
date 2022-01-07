@@ -18,4 +18,10 @@
     <ProjectReference Include="..\MDTools\MDTools.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="testfile.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

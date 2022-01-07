@@ -1,8 +1,10 @@
-﻿namespace MDTools
+﻿using CSharpFunctionalExtensions;
+
+namespace MDTools
 {
     public interface IInsertAtTag
     {
-        public void InsertAtTag(
+        public Result<string> InsertAtTag(
             string tag,
             string insertionText,
             string filename);
