@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDTools", "MDTools\MDTools.csproj", "{B03D9C21-BE77-41D0-8D4F-C582B8A913F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDTools.Tests", "MDTools.Tests\MDTools.Tests.csproj", "{B7E5D2EE-0719-4AE0-82D0-E79143F3C441}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B03D9C21-BE77-41D0-8D4F-C582B8A913F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B03D9C21-BE77-41D0-8D4F-C582B8A913F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B03D9C21-BE77-41D0-8D4F-C582B8A913F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B03D9C21-BE77-41D0-8D4F-C582B8A913F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7E5D2EE-0719-4AE0-82D0-E79143F3C441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7E5D2EE-0719-4AE0-82D0-E79143F3C441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7E5D2EE-0719-4AE0-82D0-E79143F3C441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7E5D2EE-0719-4AE0-82D0-E79143F3C441}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D86A0BA9-6EF4-4F3E-BEC2-32CD56E7894A}
+	EndGlobalSection
+EndGlobal
